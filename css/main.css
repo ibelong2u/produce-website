@@ -1,0 +1,577 @@
+﻿@import url("http://fonts.googleapis.com/css?family=Overlock:900|Cantora+One|Alegreya");
+
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+
+/* ==========================================================================
+   Slideshow CSS
+   ========================================================================== */
+
+#slides {
+	
+	
+}
+
+.slides_container {
+	width:940px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+	box-shadow: 0 15px 20px -10px black;
+}
+
+.slides_container a {
+	width:940px;
+	height:300px;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+}
+
+
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/slideshow/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+	
+html
+{
+	background-size: cover;
+    background-attachment: fixed;
+	background-position: center;
+	background-image: url('http://i.imgur.com/8co1a.jpg'); /* url('../img/aroniabk_light.png'); */
+	background-repeat: no-repeat;
+
+}
+
+#main_content
+{
+	background-color:#EEE;
+	background-image:url('http://photoluminary.com/wp-content/uploads/2011/02/plain-brown.jpg');
+	box-shadow: 0 0 75px 5px #000;
+	border-radius: 20px; 
+	margin: 25px auto;
+}
+
+.more
+{
+	
+	text-decoration:none; color:#000;
+}
+
+
+/* h1  { 
+	font-family: 'Overlock', sans-serif;
+	font-size: 50px; 
+	color:#303;
+	text-shadow:0 0 1px #303;
+	margin:18px 0;
+}  */
+
+
+
+
+#nav
+{
+	padding-top:33px;
+	padding-left:40px;
+	width:500px;
+	
+}
+
+#nav a {
+padding: 8px 10px;
+text-shadow: 0 0 1px #606;
+text-decoration: none;
+font: normal normal normal 25px 'Cantora One';
+color: #606;
+}
+
+#nav a:hover
+{
+/*	border-bottom: 25px solid #303; */
+	border-radius: 10px;
+/*	box-shadow: 0 0 10px #000;  */
+	background-color: #606;
+	color: #FFF;
+	text-shadow: 0 0 1px #fff;
+	
+}
+
+.dropdown
+{
+	display:none;
+}
+
+#nav ul {
+	top:9px;
+	z-index:8;
+	position:absolute;
+	padding:0;
+	list-style:none inside none;
+	background-color:#303;
+	border-radius:10px;
+}
+
+#nav ul li a {
+	color:#FFF;
+	display:block;
+}
+
+
+
+
+#slogan p
+{
+	color:#762083;
+	margin: 15px 0;
+	text-align:center;
+	font:normal normal normal 42px 'Overlock';
+}
+#socialbox {
+padding: 140px 0;
+vertical-align: middle;
+box-shadow: 0 15px 20px -10px black;
+text-align: center;
+border-radius: 25px;
+background-color: #EEE;
+color: white;	
+width:270px;
+margin-right:40px;
+}
+
+#socialicons
+{
+	text-align:center;
+}
+
+#socialicons img
+{
+	width:40px;
+	margin:0;
+	padding:6px;
+}
+
+h4
+{
+	font:normal small-caps normal 36px 'Overlock';
+	color:#303;
+	text-shadow: 0 0 1px #303;
+	margin:0 0.5em;
+}
+
+.intros p
+{
+	font:normal normal normal 20px 'Alegreya';
+	text-shadow: 0 0 1px #000;
+	color:#762083;
+	padding: 0 1em;
+}
+
+label
+{
+	font:normal normal normal 20px 'Alegreya';
+	text-shadow: 0 0 1px #000;
+	color:#762083;
+	padding: 0 1em;
+}
+
+
+.intros ul li
+{
+	font:normal normal normal 20px 'Alegreya';
+	text-shadow: 0 0 1px #000;
+	color:#762083;
+}
+
+.intros img
+{
+	
+	margin: 0 1em;
+}
+
+
+h2 {
+	margin: 0 0.3em;
+	color: #303;
+	font:normal normal normal 40px 'Cantora One';
+	text-shadow:0 0 1px #303;
+}
+
+h5 {
+font: normal normal normal 28px 'Overlock';
+text-shadow: 0 0 1px #606;
+color:#606;
+margin: 10px;
+}
+
+.blogs img
+{
+
+box-shadow: 0 0 10px black;
+border-radius: 15px;
+
+}
+
+.blogs p {
+margin: 0 10px;
+color:#762083;
+font: normal normal normal 18px 'Alegreya';
+text-shadow: 0 0 1px black;
+}
+
+#copy {
+margin: 0 10px;
+font: normal normal normal 18px 'Alegreya';
+text-shadow: 0 0 1px #303;
+color:#303;
+text-align:center;
+letter-spacing:1px;
+}
+
+
+
+footer 
+{
+	border-top: 5px #000 solid;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+/*	height: 38%; */
+	background-color: #FFF;
+
+	background-color: #030;
+	background-size: cover;
+    background-attachment: fixed;
+	background-position: center;
+	background-image: url('../img/aroniabk_blur.png');
+	background-repeat:no-repeat;
+
+	overflow:auto;
+	min-width:900px;
+
+}
+
+
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.1);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0; 
+		}
+	
+	.reveal-modal {
+		visibility: hidden;
+		top: 220px; 
+		left: 50%;
+		margin-left: -300px;
+		width: 520px;
+		background: #eee url(modal-gloss.png) no-repeat -200px -80px;
+		position: absolute;
+		z-index: 101;
+/*		padding: 30px 40px 34px;  */
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		}
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	
+	.reveal-modal .close-reveal-modal {
+	
+	
+	border-radius:20px;
+	padding:5px;
+	background-color:#999;
+	border-width:0;
+	
+		font-size: 22px;
+		line-height: .5;
+		position: absolute;
+		top: 8px;
+		right: 11px;
+
+	color:#FFF;
+/*		color: #aaa; */
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		} 
+	/*
+		
+	NOTES
+	
+	Close button entity is &#215;
+	
+	Example markup
+	
+	<div id="myModal" class="reveal-modal">
+		<h2>Awesome. I have it.</h2>
+		<p class="lead">Your couch.  I it's mine.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+	
+	*/
+
+
+
+
+/* ==========================================================================
+   Dropdowns
+   ========================================================================== */
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
